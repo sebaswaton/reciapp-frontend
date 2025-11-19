@@ -126,7 +126,7 @@ export default function Login() {
     } else if (rol === "reciclador") {
       navigate("/reciclador", { replace: true }); // ← Cambio aquí
     } else if (rol === "ciudadano") {
-      navigate("/solicitar-recoleccion", { replace: true }); // ← Cambio aquí
+      navigate("/ciudadano", { replace: true }); // ← Redirige al dashboard
     } else {
       navigate("/perfil", { replace: true });
     }
